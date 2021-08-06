@@ -7,7 +7,7 @@ export default function Home() {
         <div className={styles.Container}>
             <Head>
                 <title>WIM | HOME</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/wimicon.svg" />
             </Head>
             <div style={{marginBottom: 70}}>
                 <h1 className={styles.Title}>Wim</h1>

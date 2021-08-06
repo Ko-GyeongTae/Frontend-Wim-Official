@@ -25,6 +25,7 @@ export default function Home() {
     <div className={style.Container}>
       <Head>
         <title>WIM | HOME</title>
+        <link rel="icon" href="/wimicon.svg" />
       </Head>
       <div className={style.Container}>
         <div className={style.begin} style={{
