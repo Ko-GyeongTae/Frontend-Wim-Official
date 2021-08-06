@@ -10,6 +10,8 @@
 }
 
 .MainBox {
+    display: flex;
+    flex-direction: column;
     width: 1200px;
     height: 2000px;
     align-items: center;
