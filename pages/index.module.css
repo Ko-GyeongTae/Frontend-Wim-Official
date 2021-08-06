@@ -20,7 +20,7 @@
 }
 .begin {
     width: 1200px auto;
-    height: 800px;
+    height: 1080px;
     align-items: center;
     justify-content: center;
     background-image: url('/images/books.jpg');
@@ -49,7 +49,7 @@
 }
 .begin_repo {
     width: 1200px auto;
-    height: 800px;
+    height: 1080px;
     background-color: white;
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/images/belgium.jpg');
     object-fit: scale-down;
