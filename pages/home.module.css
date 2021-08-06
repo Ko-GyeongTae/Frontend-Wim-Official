@@ -5,7 +5,9 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #ffffff;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/images/work.jpg');
+    object-fit: scale-down;
+    color: white;
 }
 
 .Title {
