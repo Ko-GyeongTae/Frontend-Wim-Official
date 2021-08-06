@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
+import Image from 'next/image'
 import style from './index.module.css'
 
 export default function Home() {
@@ -45,7 +46,9 @@ export default function Home() {
           paddingLeft: (innerWidth - 650) / 2,
         }}>
           <div style={{width: 650}}>
-            <img src={'/images/wimlogo.svg'} style={{width: 250, height: 250, marginLeft:200}}/>
+            <div style={{paddingLeft: 200}}>
+              <Image src={'/images/wimlogo.svg'} width={250} height={250}/>
+            </div>
             <h1>Wim이 시작된 질문 한마디</h1>
           </div>
         </div>
