@@ -1,0 +1,56 @@
+.Container {
+    width: 1200px auto;
+    height: 2000;
+    align-items: center;
+    overflow: hidden;
+}
+.titleText {
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 130px;
+    color: white;
+    position: relative;
+}
+.subtitleText{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 80px;
+    color: white;
+    position: relative;
+}
+.begin {
+    width: 1200px auto;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/images/books.jpg');
+    background-repeat: no-repeat;
+}
+.desc {
+    display: flex;
+    width: 600px;
+    height: 170px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-left: -500px;
+    margin-bottom: 50px;
+    text-justify: distribute;
+}
+.desc_rev {
+    display: flex;
+    width: 600px;
+    height: 170px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+    text-justify: distribute;
+}
+.begin_repo {
+    width: 1200px auto;
+    height: 800px;
+    background-color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/images/belgium.jpg');
+    object-fit: scale-down;
+}
