@@ -5,14 +5,14 @@
     overflow: hidden;
 }
 .titleText {
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 20px;
     font-size: 130px;
     color: white;
     position: relative;
 }
 .subtitleText{
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 20px;
     font-size: 80px;
     color: white;
@@ -28,7 +28,7 @@
 }
 .desc {
     display: flex;
-    width: 600px;
+    width: 375px auto;
     height: 170px;
     font-weight: bold;
     font-size: 20px;
@@ -39,7 +39,7 @@
 }
 .desc_rev {
     display: flex;
-    width: 600px;
+    width: 375px auto;
     height: 170px;
     font-weight: bold;
     font-size: 20px;

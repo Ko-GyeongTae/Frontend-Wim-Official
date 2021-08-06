@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import style from './index.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   const [position, setPosition] = useState(0);
@@ -9,9 +10,8 @@ export default function Home() {
 
   const onScroll = () => {
     console.log(window.scrollY);
-    console.log(window.innerWidth);
-    setPosition(window.scrollY);
     setInnerWidth(window.innerWidth);
+    setPosition(innerWidth >= 625 ? window.scrollY : window.scrollY * 0.8);
   }
 
   useEffect(() => {
@@ -45,8 +45,8 @@ export default function Home() {
           alignItems:'center',
           paddingLeft: (innerWidth - 650) / 2,
         }}>
-          <div style={{width: 650}}>
-            <div style={{paddingLeft: 200}}>
+          <div style={{width: '375px auto'}}>
+            <div style={{paddingLeft: innerWidth < 625 ? innerWidth / 2 - 125 : 187.5}}>
               <Image src={'/images/wimlogo.svg'} width={250} height={250}/>
             </div>
             <h1>Wim이 시작된 질문 한마디</h1>
@@ -54,8 +54,9 @@ export default function Home() {
         </div>
 
         <div className={style.desc} style={{
-          transform: `translateX(${position-100}px)`,
-          marginBottom: 100
+          transform: `translateX(${innerWidth >= 625 ? position-100 : position-450}px)`,
+          marginBottom: 100,
+          width: '375px auto'
         }}>
           <div>
             <h1 style={{fontSize: 60}}>Where is my?</h1>
@@ -63,7 +64,7 @@ export default function Home() {
           </div>
         </div>
         <div className={style.desc} style={{
-          transform: `translateX(${-position + 2450}px)`
+          transform: `translateX(${innerWidth >= 625 ? -position + 2450 : -position + 1700}px)`
         }}>
           <div>
             <h1 style={{fontSize: 60}}>상상을 현실로!</h1>
@@ -74,7 +75,7 @@ export default function Home() {
           <h1
             style={{
               opacity: (position - 1000) / 200,
-              transform: `translateX(${position - 950}px)`,
+              transform: `translateX(${innerWidth >= 625 ? position - 950 : position - 1300}px)`,
               color: 'black',
               fontSize: 60,
               marginBottom: 50
@@ -91,7 +92,9 @@ export default function Home() {
           }}
         >
           <h3 style={{ fontSize: 120, color: 'white' }}>Join with Wim!</h3>
-          <p style={{ fontSize: 50, color: 'white'}}>Wim에 대해 알아보러 가기</p>
+          <Link href={'/home'} passHref>
+            <p style={{ fontSize: 50, color: 'white'}}>Wim에 대해 알아보러 가기</p>
+          </Link>
         </div>
       </div>
     </div>
