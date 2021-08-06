@@ -1,0 +1,82 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px auto;
+    height: 2000px;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 100px;
+    background-color: #f5f5f5;
+}
+
+.MainBox {
+    width: 1200px;
+    height: 2000px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 500px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.HeaderText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    height: 300px;
+}
+
+.Body1 {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 300px;
+    background-color: bisque;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/ceo/challenge.jpg');
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.Body2 {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 300px;
+    background-color:rgb(242, 255, 196);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/ceo/achieve.jpg');
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.Body3 {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(196, 255, 226);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/ceo/community.jpg');
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
