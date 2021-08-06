@@ -1,0 +1,21 @@
+.Container {
+    width: 1200px auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.Title {
+    font-size: 140px;
+}
+
+.SubTitle {
+    font-size: 90px;
+}
+
+.Description {
+    font-size: 30px;
+}
