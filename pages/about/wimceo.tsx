@@ -16,11 +16,11 @@ const Home = () => {
                     <div className={styles.Header}>
                         <Image src={'/ceo/profile.jpeg'} width={400} height={400} />
                         <div className={styles.HeaderText}>
-                            <h1>전우진 CEO</h1>
-                            <h2>전국 IoT 비즈니스 아이디어 공모전 3등 수상</h2>
-                            <h2>대경권 공공데이터 활용 대회 2등 수상</h2>
-                            <h2>경북대학교 ‘슬기로운 컴학대회’ 개최</h2>
-                            <h2>경북대학교 컴퓨터학부 보안연구회 소속</h2>
+                            <h1 style={{fontSize: 60}}>전우진 CEO</h1>
+                            <h2> - 전국 IoT 비즈니스 아이디어 공모전 3등 수상</h2>
+                            <h2> - 대경권 공공데이터 활용 대회 2등 수상</h2>
+                            <h2> - 경북대학교 ‘슬기로운 컴학대회’ 개최</h2>
+                            <h2> - 경북대학교 컴퓨터학부 보안연구회 소속</h2>
                         </div>
                     </div>
                     <div className={styles.Body1}>
