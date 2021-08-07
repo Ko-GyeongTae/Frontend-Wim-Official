@@ -1,0 +1,32 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/project/background.jpg');
+    overflow: hidden;
+    padding-top: 150px;
+}
+
+.Category {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    margin-bottom: 80px;
+    color: white;
+    font-size: 30px;
+}
+.Category:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all 0.2s linear;
+    color: black;
+    width: 800px;
+    height: 200px;
+}
