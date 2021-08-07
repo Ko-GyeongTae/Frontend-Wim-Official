@@ -32,16 +32,13 @@ const Home = () => {
                 <div className={styles.Container}>
                     <div className={styles.Box}>
                         <div>
-                            <h1 className={styles.Title}>같이 사면 더 저렴해진다! 크누마켓</h1>
-                            <p className={styles.Description}>비싼 배달/배송비와 1인가구에게는 많은 양의 제품을</p>
-                            <p className={styles.Description}>경북대학교 학생들과 나누면서 각자의 부담을 덜 수 있도록</p>
-                            <p className={styles.Description}>개인이 공동구매를 진행할 수 있는 플랫폼 앱을 제작하였습니다.</p>
+                            <h1 className={styles.Title}>학생 창업 유망 300 선정</h1>
+                            <p className={styles.Description}>우리는 상상을 현실로 만들어가는 중입니다.</p>
+                            <p className={styles.Description}>이러한 과정에서 전국에 있는 학생창업 유망 300팀 안에 선정될 수 있게 되었습니다.</p>
+                            <p className={styles.Description}>우리의 미래를 향한 발자국 앞으로도 잘 지켜봐주시면 감사하겠습니다.</p>
                         </div>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <Image src={'/project/proceed/knu1.png'} width={210} height={430} />
-                            <Image src={'/project/proceed/knu2.png'} width={210} height={430} />
-                            <Image src={'/project/proceed/knu3.png'} width={210} height={430} />
-                            <Image src={'/project/proceed/knu4.png'} width={210} height={430} />
+                            <Image src={'/project/complete/mainban.png'} width={840} height={430} />
                         </div>
                     </div>
                 </div>
