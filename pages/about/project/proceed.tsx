@@ -20,10 +20,10 @@ const Home = () => {
                         <p className={styles.Description}>개인이 공동구매를 진행할 수 있는 플랫폼 앱을 제작하였습니다.</p>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'row' }}>
-                        <Image src={'/project/proceed/knu1.png'} width={210} height={430} />
-                        <Image src={'/project/proceed/knu2.png'} width={210} height={430} />
-                        <Image src={'/project/proceed/knu3.png'} width={210} height={430} />
-                        <Image src={'/project/proceed/knu4.png'} width={210} height={430} />
+                        <Image src={'/project/proceed/knu1.png'} width={210} height={430} alt=""/>
+                        <Image src={'/project/proceed/knu2.png'} width={210} height={430} alt=""/>
+                        <Image src={'/project/proceed/knu3.png'} width={210} height={430} alt=""/>
+                        <Image src={'/project/proceed/knu4.png'} width={210} height={430} alt=""/>
                     </div>
                 </div>
             </div>

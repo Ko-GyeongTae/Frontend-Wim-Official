@@ -38,7 +38,7 @@ const Home = () => {
                             <p className={styles.Description}>우리의 미래를 향한 발자국 앞으로도 잘 지켜봐주시면 감사하겠습니다.</p>
                         </div>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <Image src={'/project/complete/mainban.png'} width={840} height={430} />
+                            <Image src={'/project/complete/mainban.png'} width={840} height={430} alt=""/>
                         </div>
                     </div>
                 </div>
