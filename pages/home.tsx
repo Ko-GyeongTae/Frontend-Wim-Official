@@ -16,7 +16,7 @@ export default function Home() {
                 <p className={styles.Description}>우리 생활에서 꼭 필요한, 동시에 유용한 앱을 만들겠다는 의지를 담고 있습니다.</p>
             </div>
             <div>
-                <Link href={'/about/wimproject'} passHref><h1>Wim의 사업 둘러보기</h1></Link>
+                <Link href={'/about/project/'} passHref><h1>Wim의 사업 둘러보기</h1></Link>
             </div>
             <div>
                 <Link href={'/about/wimceo'} passHref><h1>Wim의 대표 알아보기</h1></Link>
