@@ -48,7 +48,7 @@ export default function Home() {
         }}>
           <div style={{width: '375px auto'}}>
             <div style={{paddingLeft: innerWidth < 625 ? innerWidth / 2 - 125 : 187.5}}>
-              <Image src={'/images/wimlogo.svg'} width={250} height={250}/>
+              <Image src={'/images/wimlogo.svg'} width={250} height={250} alt=""/>
             </div>
             <h1>Wim이 시작된 질문 한마디</h1>
           </div>

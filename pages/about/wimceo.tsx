@@ -14,7 +14,7 @@ const Home = () => {
             <div className={styles.Container}>
                 <div className={styles.MainBox}>
                     <div className={styles.Header}>
-                        <Image src={'/ceo/profile.jpeg'} width={400} height={400} />
+                        <Image src={'/ceo/profile.jpeg'} width={400} height={400} alt=""/>
                         <div className={styles.HeaderText}>
                             <h1 style={{fontSize: 60}}>전우진 CEO</h1>
                             <h2> - 전국 IoT 비즈니스 아이디어 공모전 3등 수상</h2>

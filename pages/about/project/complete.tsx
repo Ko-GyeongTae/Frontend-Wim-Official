@@ -22,10 +22,10 @@ const Home = () => {
                             <p className={styles.Description}>들리는 라디오 앱을 제작하여 어르신들의 목소리를 듣고자 하였습니다.</p>
                         </div>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <Image src={'/project/complete/whale1.png'} width={210} height={430} />
-                            <Image src={'/project/complete/whale2.png'} width={210} height={430} />
-                            <Image src={'/project/complete/whale3.png'} width={210} height={430} />
-                            <Image src={'/project/complete/whale4.png'} width={210} height={430} />
+                            <Image src={'/project/complete/whale1.png'} width={210} height={430} alt=""/>
+                            <Image src={'/project/complete/whale2.png'} width={210} height={430} alt=""/>
+                            <Image src={'/project/complete/whale3.png'} width={210} height={430} alt=""/>
+                            <Image src={'/project/complete/whale4.png'} width={210} height={430} alt=""/>
                         </div>
                     </div>
                 </div>
@@ -52,10 +52,10 @@ const Home = () => {
                             <a href={'https://youtu.be/B7hDPArGkXQ'} style={{fontSize: 30}}>산격 3동 홍보 영상 보러가기</a>
                         </div>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <Image src={'/project/complete/sangyeok1.png'} width={210} height={430} />
-                            <Image src={'/project/complete/sangyeok2.png'} width={210} height={430} />
-                            <Image src={'/project/complete/sangyeok3.png'} width={210} height={430} />
-                            <Image src={'/project/complete/sangyeok4.png'} width={210} height={430} />
+                            <Image src={'/project/complete/sangyeok1.png'} width={210} height={430} alt=""/>
+                            <Image src={'/project/complete/sangyeok2.png'} width={210} height={430} alt=""/>
+                            <Image src={'/project/complete/sangyeok3.png'} width={210} height={430} alt=""/>
+                            <Image src={'/project/complete/sangyeok4.png'} width={210} height={430} alt=""/>
                         </div>
                     </div>
                 </div>
